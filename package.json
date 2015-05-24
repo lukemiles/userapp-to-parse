@@ -1,0 +1,9 @@
+{
+  "name": "userapp-to-parse",
+  "private": true,
+  "version": "0.0.1",
+  "description": "migrate from parse to UA",
+  "dependencies": {
+    "moment": "^2.10.3"
+  }
+}
