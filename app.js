@@ -19,6 +19,7 @@ fs.readFile('users.json', function (err, data) {
 
   		// boilerplate attributes you will likely need
   		current['username'] = users[i].login;
+      current['email'] = users[i].email;
   		current['bcryptPassword'] = users[i]['password']['value'];
   		// Time is converted to ISO 8601 format for Parse
   		current['createdAt'] = moment(users[i].created_at, 'X').format();
