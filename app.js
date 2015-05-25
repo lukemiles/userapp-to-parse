@@ -27,7 +27,7 @@ fs.readFile('users.json', function (err, data) {
   		// be sure to customize this section for your own needs
   		current['push'] = users[i]['features']['push'];
   		current['refresh_push'] = users[i]['features']['refresh_push'];
-  		current['ss_2014'] = users[i]['features']['refresh_push'];
+  		current['ss_2014'] = users[i]['features']['ss_2014'];
   		current['endpoint_arn'] = users[i]['properties']['endpoint_arn'];
   		current['iap_receipt'] = users[i]['properties']['iap_receipt'];
   		current['push_token'] = users[i]['properties']['push_token'];
